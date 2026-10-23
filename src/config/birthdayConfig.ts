@@ -7,6 +7,13 @@
  * You can change names, messages, photos, audio, and dates here.
  */
 
+import ssImg from '../assets/ss.jpg';
+import smileImg from '../assets/smile.jpg';
+import memImg from '../assets/mem.jpg';
+import sweetuImg from '../assets/sweetu.jpg';
+import ohImg from '../assets/oh.jpg';
+import luvImg from '../assets/luv.jpg';
+
 export interface MemoryItem {
   id: string;
   title: string;
@@ -193,7 +200,7 @@ export const BIRTHDAY_CONFIG: BirthdayConfig = {
       subtitle: "The light that made the world stand still",
       dateBadge: "Timeless Moment",
       note: "Every time I look at this moment, I am reminded of how effortless loving you is.",
-      imageUrl: "src/assets/ss.jpg",
+      imageUrl: ssImg,
     },
     {
       id: "mem-2",
@@ -201,7 +208,7 @@ export const BIRTHDAY_CONFIG: BirthdayConfig = {
       subtitle: "The laughter that outshines every star",
       dateBadge: "Pure Joy",
       note: "Your real smile — the one that reaches your eyes — is my absolute favorite sight in the world.",
-      imageUrl: "src/assets/smile.jpg",
+      imageUrl: smileImg,
     },
     {
       id: "mem-3",
@@ -209,7 +216,7 @@ export const BIRTHDAY_CONFIG: BirthdayConfig = {
       subtitle: "A day carved permanently in my heart",
       dateBadge: "Sweetest Memory",
       note: "The hours felt like minutes, and neither of us wanted the night to end.",
-      imageUrl: "src/assets/mem.jpg",
+      imageUrl: memImg,
     },
     {
       id: "mem-4",
@@ -217,7 +224,7 @@ export const BIRTHDAY_CONFIG: BirthdayConfig = {
       subtitle: "Quiet magic in the middle of ordinary life",
       dateBadge: "Unforgettable",
       note: "When everything else faded into background noise, and it was just you and me.",
-      imageUrl: "src/assets/sweetu.jpg",
+      imageUrl: sweetuImg,
     },
     {
       id: "mem-5",
@@ -225,7 +232,7 @@ export const BIRTHDAY_CONFIG: BirthdayConfig = {
       subtitle: "Instant sunshine on any cloudy day",
       dateBadge: "Instant Happiness",
       note: "Whenever my day is chaotic, one glance at your face brings instant peace.",
-      imageUrl: "src/assets/oh.jpg",
+      imageUrl: ohImg,
     },
     {
       id: "mem-6",
@@ -233,7 +240,7 @@ export const BIRTHDAY_CONFIG: BirthdayConfig = {
       subtitle: "Every journey is enchanted by your side",
       dateBadge: "Together",
       note: "It doesn't matter where we go — as long as I am walking with you, I am home.",
-      imageUrl: "src/assets/luv.jpg",
+      imageUrl: luvImg,
     },
   ],
 
